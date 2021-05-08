@@ -1,0 +1,140 @@
+<div class="sheet" style="font-family: 'Museo Sans Cyrl'; width: 842px; height: 595px; position: relative; overflow: hidden">
+    <div style="position: absolute; top:0; left: 314px; height: 100%; width: 528px; background-image: url('/static/img/pattern2.png'); background-repeat: no-repeat;"></div>
+    <table style="height: 100%; width: 100%;
+            border-spacing: 0px;
+            border: none;
+            box-sizing: content-box;
+            border-collapse: unset;">
+        <tr>
+            <td style="line-height: 0; width: 314px; height: 595px; display: block; padding: 0; margin: 0;">
+                <img src="<%= mapFileSrc %>" style="position: relative; width: 314px; height: 595px" alt="pattern">
+                <div style="position: absolute; top: 238px; left: 125px;">
+                    <img src="/static/img/place.png" style="position: relative; width: 100%; height: 100%" alt="pattern">
+                </div>
+            </td>
+            <td style="width: 528px; height: 595px; vertical-align: center">
+                <div style="">
+                    <table>
+                        <tr>
+                            <td style="width: 70px">
+                                <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 15V30L36.75 37.56L39.06 33.72L28.5 27.45V15H24ZM54 21V0L46.08 7.92C41.22 3.03 34.47 0 27 0C12.09 0 0 12.09 0 27C0 41.91 12.09 54 27 54C41.91 54 54 41.91 54 27H48C48 38.58 38.58 48 27 48C15.42 48 6 38.58 6 27C6 15.42 15.42 6 27 6C32.79 6 38.04 8.37 41.85 12.15L33 21H54Z" fill="#49A942"/>
+                                </svg>
+                            </td>
+                            <td>
+                                <div style="font-style: normal;
+                                font-weight: 600;
+                                font-size: 40px;
+                                width: auto;
+                                background: linear-gradient(96.99deg, #008054 0%, #B4D88B 101.2%);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent; "><%= distance %>
+                                    <span style="font-size: 24px"><%=distanceUnit%></span>
+                                </div>
+
+                                <div style="font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 18px;
+                                        line-height: 21px;
+                                        color: #7B7B7B;"><% if(isSubway) { %> от метро <% } else { %> от шоссе <% } %></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="margin-top: 24px; color: #7B7B7B;">
+                                    <table style="height: 100%; width: 100%;
+                                            border-spacing: 0px;
+                                            border: none;
+                                            box-sizing: content-box;
+                                            border-collapse: unset;">
+                                        <tr>
+                                            <td style="width: 23px; vertical-align: top">
+                                                <svg style="margin-top: 3px; margin-left: 1px;" width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.00002 7.00016C5.26669 7.00016 4.66669 6.40016 4.66669 5.66683C4.66669 4.9335 5.26669 4.3335 6.00002 4.3335C6.73335 4.3335 7.33335 4.9335 7.33335 5.66683C7.33335 6.40016 6.73335 7.00016 6.00002 7.00016ZM10 5.80016C10 3.38016 8.23335 1.66683 6.00002 1.66683C3.76669 1.66683 2.00002 3.38016 2.00002 5.80016C2.00002 7.36016 3.30002 9.42683 6.00002 11.8935C8.70002 9.42683 10 7.36016 10 5.80016ZM6.00002 0.333496C8.80002 0.333496 11.3334 2.48016 11.3334 5.80016C11.3334 8.0135 9.55335 10.6335 6.00002 13.6668C2.44669 10.6335 0.666687 8.0135 0.666687 5.80016C0.666687 2.48016 3.20002 0.333496 6.00002 0.333496Z" fill="#49A942"/>
+                                                </svg>
+                                            </td>
+                                            <td style="vertical-align: top">
+                                                <div style="font-size: 14px; font-weight: 400"><%=location%></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 17px; vertical-align: top">
+                                                <svg style="margin-top: 8px;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.17185 9.59024V10.2808H12V9.59024H11.4498L9.5777 5.00037L7.9992 7.68025L6.4223 5.00037L4.54863 9.59024H4V10.2808H6.82815V9.59024H6.40465L6.81692 8.44549L7.9992 10.3337L9.18308 8.44549L9.59535 9.59024H9.17185Z" fill="#49A942"/>
+                                                    <rect x="1.65" y="1.65012" width="12.7" height="12.7" rx="6.35" stroke="#49A942" stroke-width="1.3"/>
+                                                </svg>
+                                            </td>
+                                            <td style="vertical-align: top">
+                                                <div style="margin-top: 7px; width: 100%; font-size: 14px; font-weight: 400"><%=subwayStations%></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="margin-top: 24px;
+                                font-weight: 600;
+                                font-size: 24px;
+                                background: linear-gradient(96.99deg, #008054 0%, #B4D88B 101.2%);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent; "> Развитая инфраструктура
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="margin-top: 16px;
+                                color: #7B7B7B; font-size: 14px; font-weight: 400; line-height: 21px">
+                                    <%=description%>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="margin-top: 36px;">
+                                    <table style="height: 100%; width: 100%;
+                                            border-spacing: 0px;
+                                            border: none;
+                                            box-sizing: content-box;
+                                            border-collapse: unset;">
+                                        <tr style="line-height: 0">
+                                            <% for(let key = 0; key < 7; key++) { %>
+                                                <% if(key !== 6) { %>
+                                                <td style="min-width: 24px; width: 48px; padding: 0;">
+                                                <% } else { %>
+                                                <td style="min-width: 24px; width: 24px; padding: 0;">
+                                                <% } %>
+                                                    <% if(infrastructure && infrastructure[key]) { %>
+                                                        <%-infrastructure[key] %>
+                                                    <% } %>
+                                                </td>
+                                            <% } %>
+                                        </tr>
+                                        <% if(infrastructure.length > 7) { %>
+                                            <tr style="height: 24px">
+                                                <td colspan="7"></td>
+                                            </tr>
+                                            <tr>
+                                                <% for(let key = 7; key < 14; key++) { %>
+                                                    <td style="min-width: 24px;">
+                                                        <% if(infrastructure && infrastructure[key]) { %>
+                                                        <%-infrastructure[key] %>
+                                                        <% } %>
+                                                    </td>
+                                                <% } %>
+                                            </tr>
+                                        <% } %>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+

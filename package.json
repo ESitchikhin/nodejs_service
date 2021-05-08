@@ -1,0 +1,43 @@
+{
+  "name": "pdf-gen-service",
+  "version": "1.0.0",
+  "description": "Pdf generate service",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn index.ts http://localhost:8000/get-result",
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc && cp package.json package-lock.json .env Dockerfile ./dist/ && cp -R ./static ./dist/"
+  },
+  "author": "Evgeny Sitchikhin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/form-data": "^2.5.0",
+    "@types/pdfkit": "^0.10.6",
+    "@types/axios": "^0.14.0",
+    "@types/d3": "^6.2.0",
+    "@types/ejs": "^3.0.5",
+    "@types/node": "^14.14.7",
+    "@types/sharp": "^0.27.1",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "d3": "^6.3.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "get-stream": "^6.0.0",
+    "helmet": "^4.2.0",
+    "html-pdf": "^3.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "pdfkit": "^0.11.0",
+    "request": "^2.88.2",
+    "sharp": "^0.27.0",
+    "svg-to-pdfkit": "^0.1.8"
+  }
+}

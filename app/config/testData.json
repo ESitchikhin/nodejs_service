@@ -1,0 +1,909 @@
+{
+    "dataType": "multypleOffer",
+    "isNdsInclude": true,
+    "blocks": [
+        {
+            "blockId": "header",
+            "realtyId": null,
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": false,
+            "name": "Заголовок презентации",
+            "errors": null
+        },
+        {
+            "blockId": "building_header",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": false,
+            "name": "Заголовок объекта",
+            "errors": null
+        },
+        {
+            "blockId": "building_location",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": true,
+            "name": "Расположение объекта",
+            "errors": null
+        },
+        {
+            "blockId": "building_info",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": true,
+            "name": "Информация об объекте",
+            "errors": null
+        },
+        {
+            "blockId": "building_photo",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": true,
+            "name": "Фотографии объекта",
+            "errors": null
+        },
+        {
+            "blockId": "area_commercial",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": "534168ef-8e94-44f5-8f49-a0382177113a",
+            "realtyOfferId": "ro22509",
+            "isOptional": false,
+            "name": "Коммерческое предложение помещения",
+            "errors": null
+        },
+        {
+            "blockId": "area_photo",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": "534168ef-8e94-44f5-8f49-a0382177113a",
+            "realtyOfferId": "ro22509",
+            "isOptional": true,
+            "name": "Фотографии помещения",
+            "errors": null
+        },
+        {
+            "blockId": "area_schema",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": "534168ef-8e94-44f5-8f49-a0382177113a",
+            "realtyOfferId": "ro22509",
+            "isOptional": true,
+            "name": "Планировка помещения",
+            "errors": null
+        },
+        {
+            "blockId": "area_commercial",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": "65fa40cc-0e94-4237-9a18-c51a21c8a466",
+            "realtyOfferId": "ro2094",
+            "isOptional": false,
+            "name": "Коммерческое предложение помещения",
+            "errors": null
+        },
+        {
+            "blockId": "area_photo",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": "65fa40cc-0e94-4237-9a18-c51a21c8a466",
+            "realtyOfferId": "ro2094",
+            "isOptional": true,
+            "name": "Фотографии помещения",
+            "errors": null
+        },
+        {
+            "blockId": "area_schema",
+            "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "realtyObjectId": "65fa40cc-0e94-4237-9a18-c51a21c8a466",
+            "realtyOfferId": "ro2094",
+            "isOptional": true,
+            "name": "Планировка помещения",
+            "errors": null
+        },
+        {
+            "blockId": "building_header",
+            "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": false,
+            "name": "Заголовок объекта",
+            "errors": null
+        },
+        {
+            "blockId": "building_location",
+            "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": true,
+            "name": "Расположение объекта",
+            "errors": null
+        },
+        {
+            "blockId": "building_info",
+            "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": true,
+            "name": "Информация об объекте",
+            "errors": null
+        },
+        {
+            "blockId": "building_photo",
+            "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": true,
+            "name": "Фотографии объекта",
+            "errors": null
+        },
+        {
+            "blockId": "area_commercial",
+            "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+            "realtyObjectId": "3ce1047b-63fb-4a10-b96d-0769a96ab50b",
+            "realtyOfferId": "ro42605",
+            "isOptional": false,
+            "name": "Коммерческое предложение помещения",
+            "errors": null
+        },
+        {
+            "blockId": "area_commercial",
+            "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+            "realtyObjectId": "81d81231-14ff-4bcb-be85-18d043b3d5de",
+            "realtyOfferId": "ro47845",
+            "isOptional": false,
+            "name": "Коммерческое предложение помещения",
+            "errors": null
+        },
+        {
+            "blockId": "broker_contacts",
+            "realtyId": null,
+            "realtyObjectId": null,
+            "realtyOfferId": null,
+            "isOptional": false,
+            "name": "Контакты брокера",
+            "errors": null
+        }
+    ],
+    "templateId": "real_estate_offer_template",
+    "isGreyscalePhotos": true,
+    "data": [
+        {
+            "id": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+            "idString": "serf-plaza",
+            "webId": 2070,
+            "created": "1900-01-01T00:00:00Z",
+            "modified": "2018-06-21T08:16:09.317Z",
+            "modifierId": "a9219b64-22db-4933-8cd6-c4cbc5ecd0d3",
+            "name": "Сёрф-плаза",
+            "prefix": "Бизнес-центр",
+            "markets": "offices",
+            "realtyType": "multistorey",
+            "buildingType": "officeBuilding",
+            "taxSvcNumber": 23,
+            "buildingClass": 2.00,
+            "buildingClassLetter": "B",
+            "land": {},
+            "building": {
+                "status": "complete",
+                "buildYear": 2013,
+                "squareTotal": 15000.00,
+                "floors": 4,
+                "material": "none",
+                "note": "многофункциональный комплекс\r\nприточно-вытяжная вентиляция, возможна установка кондиционеров",
+                "anons": "многофункциональный комплекс\r\nприточно-вытяжная вентиляция, возможна установка кондиционеров."
+            },
+            "inner": {
+                "powerType": "autonomous",
+                "powerAmount": 25000,
+                "powerAmountPerMeter": 250,
+                "heating": "central",
+                "waterSupply": "onTheEdge",
+                "hotWater": "none",
+                "ventilation": "supply",
+                "fireSafety": "autoFireFightingSystem",
+                "autoFireFightingSystem": "water",
+                "airConditioning": "split",
+                
+                "note": "В бизнес-центре «Серф Плаза» спроектирован подземный паркинг. На трех этажах здания расположен апарт-отель, рассчитанный на 42 комфортных номера, в которых вы сможете разместить своих иностранных или иногородних гостей. Также здесь имеется крупный фитнес-центр с бассейном и двумя теннисными кортами, что не оставит равнодушным ни одного сторонника здорового образа жизни и активного времяпровождения. Остальную часть здания занимают административные помещения, ресторан, имеющий два отдельных входа и торговые площади, предназначенные для открытия магазинов, банков и других объектов бытовой инфраструктуры. В шаговой доступности от бизнес-центра расположено несколько продуктовых магазинов, салон красоты, аптека.",
+                "anons": "В бизнес-центре «Серф Плаза» спроектирован подземный паркинг. На трех этажах здания расположен апарт-отель, рассчитанный на 42 комфортных номера, в которых вы сможете разместить своих иностранных или иногородних гостей."
+            },
+            "outer": {
+                "type": "none",
+                "infrastructure": "cafe, restaurant, fastfood, bar, openWater, bankomat, carWash, groceryStore, groceryMarket, tradeCenter, cinema, childrenGarden, childrenPlayground, school, childGoodsMarket, medicine, fitnes",
+                "note": "Бизнес-центр «Серф Плаза» расположен на берегу Москвы-реки на юго-востоке столицы, в районе, где планируется открытие станции «водного метро». Из окон и с террас здания открываются живописные виды на прибрежно-парковую зону и реку. В архитектурном облике объекта воплощены современные дизайнерские тенденции, характерные для класса «В» — асимметричный фасад, высокая площадь панорамного остекления и лаконичные детали. Здесь предлагаются в аренду готовые к отделке офисы различного метража. Помещения, выполненные в смешанной планировке, имеют отдельный вход со стороны улицы. Помимо офисов, в БЦ «Серф Плаза» сдаются площади под ресторан, банк, торговые точки, в настоящее время в здании уже открыты апарт-отель и фитнес-центр, все это делает объект многофункциональным и перспективным комплексом.",
+                "anons": "Бизнес-центр «Серф Плаза» расположен на берегу Москвы-реки на юго-востоке столицы, в районе, где планируется открытие станции «водного метро». Из окон и с террас здания открываются живописные виды на прибрежно-парковую зону и реку."
+            },
+            "communicate": {
+                "phoneProviders": 21,
+                "internetProviders": 11
+            },
+            "lift": {
+                "type": "none",
+                "freightLifts": 3,
+                "freightTonnage": 1580,
+                "passengerLifts": 8
+            },
+            "parking": {
+                "type": "underground",
+                "placesTotal": 290,
+                "note": "подземный паркинг",
+                "anons": "подземный паркинг."
+            },
+            "lux": {
+                "type": "none",
+                "infrastructure": "none",
+                "note": "В бизнес-центре «Серф Плаза» спроектирован подземный паркинг. На трех этажах здания расположен апарт-отель, рассчитанный на 42 комфортных номера, в которых вы сможете разместить своих иностранных или иногородних гостей. Также здесь имеется крупный фитнес-центр с бассейном и двумя теннисными кортами, что не оставит равнодушным ни одного сторонника здорового образа жизни и активного времяпровождения. Остальную часть здания занимают административные помещения, ресторан, имеющий два отдельных входа и торговые площади, предназначенные для открытия магазинов, банков и других объектов бытовой инфраструктуры. В шаговой доступности от бизнес-центра расположено несколько продуктовых магазинов, салон красоты, аптека.",
+                "anons": "В бизнес-центре «Серф Плаза» спроектирован подземный паркинг. На трех этажах здания расположен апарт-отель, рассчитанный на 42 комфортных номера, в которых вы сможете разместить своих иностранных или иногородних гостей."
+            },
+            "entry": {
+                "type": "video, postControl",
+                "note": "круглосуточное видеонаблюдение",
+                "anons": "круглосуточное видеонаблюдение."
+            },
+            "features": {
+                "type": "none"
+            },
+            "transfer": {
+                "type": "none",
+                "note": "Бизнес-центр «Сёрф -Плаза» расположен в районе Печатники Юго-Восточного административного округа (ЮВАО) Москвы по адресу: улица Гурьянова, д. 30. Рядом пролегают улицы Шоссейная, Кухмистерова, Полбина. Расстояние до МКАД составляет 10 километров, до ТТК – 7,5 км. От станции метро  «Печатники» дорога пешком займет 15 минут. Недалеко расположена ж/д-платформа Люблино Курского направления МЖД.",
+                "anons": "Бизнес-центр «Сёрф -Плаза» расположен в районе Печатники Юго-Восточного административного округа (ЮВАО) Москвы по адресу: улица Гурьянова, д. 30. Рядом пролегают улицы Шоссейная, Кухмистерова, Полбина. Расстояние до МКАД составляет 10 километров, до ТТК – 7,5 км. От станции метро  «Печатники» дорога пешком займет 15 минут. Недалеко расположена ж/д-платформа Люблино Курского направления МЖД."
+            },
+            "addressId": "23cbbb32-ea71-4d45-bba1-e121f4b63c9e",
+            "address": {
+                "id": "23cbbb32-ea71-4d45-bba1-e121f4b63c9e",
+                "lat": 55.680728295845071,
+                "lng": 37.71584501838538,
+                "route": "ул. Гурьянова",
+                "house": "30",
+                "fullAddress": "ул. Гурьянова, 30, Москва, Россия, 109388",
+                "countryId": "7425865f-0e67-4016-9edd-1cd471cb2d08",
+                "regionId": "57c0fa45-e991-4aab-82bb-daeedf4f7d1e",
+                "gd": {
+                    "house": "30",
+                    "route": "ул. Гурьянова",
+                    "sublocality": "ЮАО",
+                    "locality": "Москва",
+                    "administrativeArea2": "Москва",
+                    "administrativeArea1": "Москва",
+                    "country": "Россия",
+                    "postalCode": "109388"
+                },
+                "subwayStations": [
+                    {
+                        "id": "68435851-cb6c-45be-b90a-ab8a1269cbdf",
+                        "name": "Печатники",
+                        "lineId": "8d33ba2a-0313-45af-b182-b5a3b66b29ad",
+                        "lineName": "Люблинско-Дмитровская линия",
+                        "lineNumber": "10",
+                        "distance": 1575.64
+                    }
+                ]
+            },
+            "realtyObjects": [
+                {
+                    "id": "534168ef-8e94-44f5-8f49-a0382177113a",
+                    "webId": 22509,
+                    "created": "2017-03-10T12:53:48.2Z",
+                    "modified": "2019-07-05T11:28:45.787Z",
+                    "status": "actual",
+                    "markets": "retail",
+                    "alsoOffering": "none",
+                    "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+                    "info": {
+                        "features": "ownEntrance, noLift, socleFloor, wholeBuilding",
+                        "squareTotal": 115.20,
+                        "squareOffer": 115.20,
+                        "floor": 0,
+                        "floorsCount": 1,
+                        "floorsHeight": 3.5,
+                        "power": 80,
+                        "roomsCount": 1,
+                        "state": "cosmetic",
+                        "spaceLayout": "open",
+                        "purposes": "retail",
+                        "currentPurpose": "none",
+                        "waterPoint": "none",
+                        "parking": "none"
+                    },
+                    "lessee": {},
+                    "retail": {},
+                    "realtyOffers": [
+                        {
+                            "id": "ro22509",
+                            "created": "1900-01-01T00:00:00Z",
+                            "modified": "2020-12-24T09:41:19.927Z",
+                            "status": "active",
+                            "objectId": "534168ef-8e94-44f5-8f49-a0382177113a",
+                            "operation": "rent",
+                            "market": "offices",
+                            "forCustomer": {
+                                "taxType": "none",
+                                "boma": 1.00,
+                                "priceMeter": 9600.00,
+                                "priceSquare": 9216000.00,
+                                "depositeValue": 35120,
+                                "depositeType": "amount",
+                                "offerContractType": "directRent",
+                                "priceIncludes": "operational, utilities",
+                                "priceExcludes": "water, electricity, security, parking",
+                                "rentDurationValue": 5,
+                                "rentDurationType": "years"
+                            },
+                            "forAgent": {
+                                "contractType": "verbaly",
+                                "income": 100.00
+                            }
+                        }
+                    ],
+                    "medias": [
+                        {
+                            "hash": "CB7650A6-EC4A-4CF9-950F-863E2F033531",
+                            "type": "planImage",
+                            "groupName": "неразобранное",
+                            "name": "full_115_2___900.jpg",
+                            "order": 0,
+                            "isPrimary": false
+                        },
+                        {
+                            "hash": "9C829F70-7C3B-42D9-B2DF-A3C860E01DBC",
+                            "type": "commonImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20190116_132819_1_900.jpg",
+                            "order": 0,
+                            "isPrimary": false
+                        },
+                        {
+                            "hash": "23A74F74-1267-48C7-AA32-69F25CA77C31",
+                            "type": "mainImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20181220_132005_1_900.jpg",
+                            "order": 5,
+                            "isPrimary": false
+                        },
+                        {
+                            "hash": "EA1F5307-5A4D-4239-B489-63780004A7F5",
+                            "type": "mainImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20181220_132035_1_900.jpg",
+                            "order": 1,
+                            "isPrimary": true
+                        },
+                        {
+                            "hash": "9C829F70-7C3B-42D9-B2DF-A3C860E01DBC",
+                            "type": "commonImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20190116_132819_1_900.jpg",
+                            "order": 0,
+                            "isPrimary": false
+                        },
+                        {
+                            "hash": "9C829F70-7C3B-42D9-B2DF-A3C860E01DBC",
+                            "type": "mainImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20190116_132819_1_900.jpg",
+                            "order": 3,
+                            "isPrimary": true
+                        },
+                        {
+                            "hash": "9C829F70-7C3B-42D9-B2DF-A3C860E01DBC",
+                            "type": "commonImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20190116_132819_1_900.jpg",
+                            "order": 0,
+                            "isPrimary": true
+                        }
+                    ]
+                },
+                {
+                    "id": "65fa40cc-0e94-4237-9a18-c51a21c8a466",
+                    "webId": 2094,
+                    "created": "2014-12-08T00:00:00Z",
+                    "modified": "2019-07-05T11:37:39.3Z",
+                    "status": "actual",
+                    "markets": "offices",
+                    "alsoOffering": "none",
+                    "realtyId": "f316eb2f-b9b6-4190-b7e1-b02e193e472b",
+                    "info": {
+                        "features": "none",
+                        "squareTotal": 132.50,
+                        "squareOffer": 132.50,
+                        "floor": 2,
+                        "floorsCount": 1,
+                        "state": "ready",
+                        "spaceLayout": "open",
+                        "purposes": "office",
+                        "currentPurpose": "none",
+                        "waterPoint": "inside",
+                        "parking": "none"
+                    },
+                    "lessee": {},
+                    "office": {
+                        "features": "none"
+                    },
+                    "realtyOffers": [
+                        {
+                            "id": "ro2094",
+                            "created": "1900-01-01T00:00:00Z",
+                            "modified": "2020-12-24T09:41:19.867Z",
+                            "status": "active",
+                            "objectId": "65fa40cc-0e94-4237-9a18-c51a21c8a466",
+                            "operation": "rent",
+                            "market": "offices",
+                            "forCustomer": {
+                                "taxType": "nds",
+                                "boma": 1.00,
+                                "priceMeter": 10000.00,
+                                "priceSquare": 110416.66
+                            },
+                            "forAgent": {
+                                "contractType": "verbaly",
+                                "income": 100.00
+                            }
+                        }
+                    ],
+                    "medias": [
+                        {
+                            "hash": "23A74F74-1267-48C7-AA32-69F25CA77C31",
+                            "type": "commonImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20181220_132005_1_900.jpg",
+                            "order": 0,
+                            "isPrimary": false
+                        },
+                        {
+                            "hash": "EA1F5307-5A4D-4239-B489-63780004A7F5",
+                            "type": "commonImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20181220_132035_1_900.jpg",
+                            "order": 0,
+                            "isPrimary": false
+                        },
+                        {
+                            "hash": "EA1F5307-5A4D-4239-B489-63780004A7F5",
+                            "type": "commonImage",
+                            "groupName": "неразобранное",
+                            "name": "full_20181220_132035_1_900.jpg",
+                            "order": 0,
+                            "isPrimary": false
+                        },
+                        {
+                            "hash": "5670143C-3150-4137-93A1-99BC2F1216E2",
+                            "type": "planImage",
+                            "groupName": "неразобранное",
+                            "name": "full_132_5___2_800.jpg",
+                            "order": 0,
+                            "isPrimary": false
+                        }
+                    ]
+                }
+            ],
+            "medias": [
+                {
+                    "hash": "93275C70-EF01-41C8-8F66-387F04519D82",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_entrence_gurianova_img_1051_1000.jpg",
+                    "order": 5,
+                    "isPrimary": false,
+                    "description": "Фасад здания, Order = 5"
+                },
+                {
+                    "hash": "5702D5E5-CE86-46E4-9AF7-2373E34EA842",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_torg_window_1000.jpg",
+                    "order": 4,
+                    "isPrimary": false,
+                    "description": "Задний вход, Order = 4"
+                },
+                {
+                    "hash": "C22C8B67-2D09-480D-9418-2CB47FA53619",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_entrence_gurianova_img_1856_1_1000.jpg",
+                    "order": 3,
+                    "isPrimary": false,
+                    "description": "Внутренний двор,  Order = 3"
+                },
+                {
+                    "hash": "D98AF0B0-583C-48EB-B32E-F0F98E5352E4",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_img_1804_3_1000.jpg",
+                    "order": 2,
+                    "isPrimary": false,
+                    "description": "Order = 2. Очень длинное описание фото, которое явно длиннее чем само фото на презенации, что тогда будем делать?"
+                },
+                {
+                    "hash": "ADE6F1EB-1971-4E06-9658-574972D690B9",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_office_room_1_img_0428_1000.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Очень длинное описание фото, которое явно длиннее чем само фото на презенации, что тогда будем делать?"
+                },
+                {
+                    "hash": "ADE6F1EB-1971-4E06-9658-574972D690B9",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_office_room_1_img_0428_1000.jpg",
+                    "order": 1,
+                    "isPrimary": false,
+                    "description": "Четвертое фото, Order = 1"
+                },
+                {
+                    "hash": "17E3EC38-3420-4C5E-8F5E-621645ACD8FD",
+                    "type": "mainImage",
+                    "groupName": "заставка",
+                    "name": "Сёрф-плаза",
+                    "order": 1,
+                    "isPrimary": true,
+                    "description": "Самое главное фото: Order = 1, isPrimary = true"
+                },
+                {
+                    "hash": "85E8699C-91B4-49AC-880D-9A53ED3CEC7B",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_office_room_2-5_test5_1000.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Задний вход"
+                },
+                {
+                    "hash": "0E15BD38-6C4E-430B-AF11-D27652707963",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_____img_7567_white__1000__1.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Внутренний двор"
+                },
+                {
+                    "hash": "D98AF0B0-583C-48EB-B32E-F0F98E5352E4",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_img_1804_3_1000.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Очень длинное описание фото, которое явно длиннее чем само фото на презенации, что тогда будем делать?"
+                },
+                {
+                    "hash": "5702D5E5-CE86-46E4-9AF7-2373E34EA842",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_torg_window_1000.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Задний вход"
+                },
+                {
+                    "hash": "5702D5E5-CE86-46E4-9AF7-2373E34EA842",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_torg_window_1000.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Задний вход"
+                },
+                {
+                    "hash": "5702D5E5-CE86-46E4-9AF7-2373E34EA842",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_torg_window_1000.jpg",
+                    "order": 0,
+                    "isPrimary": true,
+                    "description": "Еще одно: primary = true. order = 0"
+                },
+                {
+                    "hash": "5702D5E5-CE86-46E4-9AF7-2373E34EA842",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_torg_window_1000.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Задний вход"
+                },
+                {
+                    "hash": "4F36BAC5-D5E5-4CF4-9CBE-41A691CA4902",
+                    "type": "commonImage",
+                    "groupName": "неразобранное",
+                    "name": "phoca_thumb_l_torg_window_img_9443_1000_1.jpg",
+                    "order": 0,
+                    "isPrimary": false,
+                    "description": "Очень длинное описание фото, которое явно длиннее чем само фото на презенации, что тогда будем делать?"
+                }
+            ]
+        },
+        {
+            "id": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+            "idString": "Lotte-Plaza",
+            "webId": 62,
+            "created": "1900-01-01T00:00:00Z",
+            "modified": "2019-03-26T11:45:06.307Z",
+            "modifierId": "a9219b64-22db-4933-8cd6-c4cbc5ecd0d3",
+            "name": "Lotte Plaza",
+            "prefix": "Бизнес-центр",
+            "markets": "offices",
+            "realtyType": "multistorey",
+            "buildingType": "officeBuilding",
+            "taxSvcNumber": 46,
+            "buildingClass": 1.00,
+            "buildingClassLetter": "A",
+            "land": {},
+            "building": {
+                "status": "complete",
+                "buildYear": 2008,
+                "squareTotal": 78643.00,
+                "squareUsefull": 20000.00,
+                "floors": 21,
+                "material": "none",
+                "note": "отдельно стоящее здание\r\n\r\n==========\r\n\r\nподвесные потолки, ковролин\r\n\r\n==========\r\n\r\nсовременные системы энергоснабжения, вентиляции, кондиционирования и пожаротушения",
+                "anons": "отдельно стоящее здание\r\n\r\n==========\r\n\r\nподвесные потолки, ковролин\r\n\r\n==========\r\n\r\nсовременные системы энергоснабжения, вентиляции, кондиционирования и пожаротушения."
+            },
+            "inner": {
+                "powerType": "none",
+                "heating": "none",
+                "waterSupply": "none",
+                "hotWater": "none",
+                "note": "В бизнес-центре «Lotte Plaza» предоставляются парковочные места в подземном многоярусном паркинге. К услугам арендаторов делового комплекса конференц-зал и комната переговоров. Технические возможности позволяют проводить любые мероприятия: международные конференции, презентации, форумы, семинары и т.д. Специалисты БЦ обеспечат аудио-видеозапись мероприятий, синхронный перевод, организуют кофе-брейки. \r\n7 этажей комплекса занимает универсальный торговый центр класса «Premium». Каждый этаж концептуален: товары для женщин, мужчин, молодежи, детей, для дома. На нулевом этаже круглосуточно работает супермаркет «Азбука вкуса». Открыт ресторан интернациональной кухни, а на каждом этаже есть возможность оборудовать мини-кухню. Для особых случаев на 21-м этаже работает ресторан японской и европейской кухни со средним чеком в $100. Гостей ждёт и пятизвездочный отель «Lotte» на 300 номеров, занимающий 5 этажей вместе с фитнес-центром и несколькими ресторанами. ",
+                "anons": "В бизнес-центре «Lotte Plaza» предоставляются парковочные места в подземном многоярусном паркинге. К услугам арендаторов делового комплекса конференц-зал и комната переговоров. Технические возможности позволяют проводить любые мероприятия: международные конференции, презентации, форумы, семинары и т.д."
+            },
+            "outer": {
+                "type": "none",
+                "infrastructure": "waterpool, carService, carWash, bankomat, park, openWater",
+                "note": "Бизнес-центр «Lotte Plaza» расположен на пересечении Нового Арбата и Садового кольца, недалеко от Дома Правительства. Многофункциональный комплекс международной сети «Lotte» представляет собой отдельно стоящее здание класса «А» высотой в 21 этаж и площадью 78 643  кв. м, построенное в 2008 году. В аренду предлагаются готовые к въезду офисные помещения свободной планировки общей площадью 20 000 кв. м. В  офисных помещениях на полах уложен ковролин, на потолках— подвесная система. Панорамное остекление предоставляет отличный вид на центральную часть Москвы, а 6 панорамных лифтов производства «LG» и открытые летние террасы дополняют роскошь интерьеров. Здание оборудовано современными системами энергоснабжения, вентиляции, кондиционирования и пожаротушения, телекоммуникационную связь и Интернет обеспечивают провайдеры «Комстар» и «Совинтел».БЦ «LottePlaza» находится под круглосуточной охраной и видеонаблюдением, доступ в здание осуществляется по магнитным пропускам.\r\n",
+                "anons": "Бизнес-центр «Lotte Plaza» расположен на пересечении Нового Арбата и Садового кольца. Здание класса «А» высотой в 21 этаж и площадью 78 643 кв.м, построенное в 2008 году. В аренду предлагаются готовые к въезду офисные помещения"
+            },
+            "communicate": {},
+            "lift": {
+                "type": "passenger",
+                "passengerLifts": 6,
+                "note": "производство \"LG\" (Южная Корея)",
+                "anons": "производство \"LG\" (Южная Корея)."
+            },
+            "parking": {
+                "type": "none",
+                "note": "подземная, многоярусная",
+                "anons": "подземная, многоярусная."
+            },
+            "lux": {
+                "type": "none",
+                "infrastructure": "none",
+                "note": "В бизнес-центре «Lotte Plaza» предоставляются парковочные места в подземном многоярусном паркинге. К услугам арендаторов делового комплекса конференц-зал и комната переговоров. Технические возможности позволяют проводить любые мероприятия: международные конференции, презентации, форумы, семинары и т.д. Специалисты БЦ обеспечат аудио-видеозапись мероприятий, синхронный перевод, организуют кофе-брейки. \r\n7 этажей комплекса занимает универсальный торговый центр класса «Premium». Каждый этаж концептуален: товары для женщин, мужчин, молодежи, детей, для дома. На нулевом этаже круглосуточно работает супермаркет «Азбука вкуса». Открыт ресторан интернациональной кухни, а на каждом этаже есть возможность оборудовать мини-кухню. Для особых случаев на 21-м этаже работает ресторан японской и европейской кухни со средним чеком в $100. Гостей ждёт и пятизвездочный отель «Lotte» на 300 номеров, занимающий 5 этажей вместе с фитнес-центром и несколькими ресторанами. ",
+                "anons": "В бизнес-центре «Lotte Plaza» предоставляются парковочные места в подземном многоярусном паркинге. К услугам арендаторов делового комплекса конференц-зал и комната переговоров. Технические возможности позволяют проводить любые мероприятия: международные конференции, презентации, форумы, семинары и т.д."
+            },
+            "entry": {
+                "type": "security, postControl",
+                "note": "круглосуточная охрана, видеонаблюдение, доступ в здание по магнитным пропускам",
+                "anons": "круглосуточная охрана, видеонаблюдение, доступ в здание по магнитным пропускам."
+            },
+            "features": {
+                "type": "none"
+            },
+            "transfer": {
+                "type": "none",
+                "note": "Бизнес-центр «Lotte Plaza» находится в районе Арбат Центрального административного округа (ЦАО) Москвы по адресу: Новинский бульвар, д. 8.\r\nБЦ расположен на пересечении Нового Арбата и Садового кольца. Рядом также проходят улицы Арбат, Композиторская и Смоленская набережная. Расстояние до МКАД составляет 13 км, до ТТК — 3,5 км.\r\nОфисный центр расположен по соседству с Домом Правительства РФ, посольствами и представительствами иностранных компаний. Ближайшая станция метро «Смоленская» Арбатско-Покровской и Филевской линий находится в 3-х минутах ходьбы.\r\n",
+                "anons": "Бизнес-центр «Lotte Plaza» находится в районе Арбат Центрального административного округа (ЦАО) Москвы по адресу: Новинский бульвар, д. 8.\r\nБЦ расположен на пересечении Нового Арбата и Садового кольца. Рядом также проходят улицы Арбат, Композиторская и Смоленская набережная. Расстояние до МКАД составляет 13 км, до ТТК — 3,5 км."
+            },
+            "addressId": "60a6401e-d7eb-45c5-ac8f-056e4ced5574",
+            "address": {
+                "id": "60a6401e-d7eb-45c5-ac8f-056e4ced5574",
+                "lat": 55.751487112720177,
+                "lng": 37.584121227264404,
+                "route": "Новинский бульвар",
+                "house": "8",
+                "fullAddress": "Новинский бульвар, 8, Москва, Россия, 121099",
+                "countryId": "7425865f-0e67-4016-9edd-1cd471cb2d08",
+                "regionId": "57c0fa45-e991-4aab-82bb-daeedf4f7d1e",
+                "gd": {
+                    "house": "8",
+                    "route": "Новинский бульвар",
+                    "locality": "Москва",
+                    "administrativeArea2": "город Москва",
+                    "administrativeArea1": "Москва"
+                },
+                "subwayStations": [
+                    {
+                        "id": "5239c78c-3720-480d-ae0a-092d03c293dc",
+                        "name": "Смоленская",
+                        "lineId": "ea71a452-175a-4e1c-a840-00c0f9ea86b9",
+                        "lineName": "Филёвская линия",
+                        "lineNumber": "4",
+                        "distance": 316.02
+                    }
+                ]
+            },
+            "realtyObjects": [
+                {
+                    "id": "3ce1047b-63fb-4a10-b96d-0769a96ab50b",
+                    "webId": 42605,
+                    "created": "2019-03-12T13:36:29.693Z",
+                    "modified": "2020-12-22T09:28:28.063Z",
+                    "status": "actual",
+                    "markets": "retail",
+                    "alsoOffering": "none",
+                    "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+                    "info": {
+                        "features": "none",
+                        "squareTotal": 103.20,
+                        "squareOffer": 103.20,
+                        "floor": -1,
+                        "floorsCount": 1,
+                        "state": "ready",
+                        "spaceLayout": "open",
+                        "purposes": "retail",
+                        "currentPurpose": "none",
+                        "waterPoint": "none",
+                        "parking": "none"
+                    },
+                    "lessee": {},
+                    "retail": {},
+                    "realtyOffers": [
+                        {
+                            "id": "ro42605",
+                            "created": "2019-03-13T01:00:27.81Z",
+                            "modified": "2020-12-22T09:51:09.993Z",
+                            "status": "active",
+                            "objectId": "3ce1047b-63fb-4a10-b96d-0769a96ab50b",
+                            "operation": "rent",
+                            "market": "offices",
+                            "forCustomer": {
+                                "taxType": "nds",
+                                "boma": 1.00,
+                                "priceMeter": 38500.00,
+                                "priceSquare": 331100.00
+                            },
+                            "forAgent": {
+                                "contractType": "contract",
+                                "income": 50.00
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "81d81231-14ff-4bcb-be85-18d043b3d5de",
+                    "webId": 47845,
+                    "created": "2020-01-29T13:35:06.9Z",
+                    "modified": "2020-11-18T10:03:39.327Z",
+                    "status": "actual",
+                    "markets": "retail",
+                    "alsoOffering": "none",
+                    "realtyId": "6dc28570-81bd-4fd9-8c42-f29a4257be7f",
+                    "info": {
+                        "features": "none",
+                        "squareTotal": 112.70,
+                        "squareOffer": 112.70,
+                        "floor": 2,
+                        "floorsCount": 1,
+                        "state": "ready",
+                        "spaceLayout": "rooms",
+                        "purposes": "retail",
+                        "currentPurpose": "none",
+                        "waterPoint": "none",
+                        "parking": "none"
+                    },
+                    "lessee": {},
+                    "retail": {},
+                    "realtyOffers": [
+                        {
+                            "id": "ro47845",
+                            "created": "2020-01-30T01:00:18.227Z",
+                            "modified": "2020-12-22T09:51:10.093Z",
+                            "status": "active",
+                            "objectId": "81d81231-14ff-4bcb-be85-18d043b3d5de",
+                            "operation": "sell",
+                            "market": "offices",
+                            "forCustomer": {
+                                "taxType": "nds",
+                                "boma": 1.00,
+                                "priceMeter": 525500.00,
+                                "priceSquare": 361579.16
+                            },
+                            "forAgent": {
+                                "contractType": "contract",
+                                "income": 50.00
+                            }
+                        }
+                    ]
+                }
+            ],
+            "medias": [
+                {
+                    "hash": "BB3EB024-6114-4C5D-8CAE-C520589331D6",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 6,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "D5C93C36-0773-4946-86AF-2D461E4FC96C",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 5,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "16B2D4D9-B0E2-42B3-B1A4-A466F3FCAF78",
+                    "type": "mainImage",
+                    "groupName": "презентация",
+                    "name": "Lotte Plaza _фасад",
+                    "order": 1,
+                    "isPrimary": true
+                },
+                {
+                    "hash": "76A63D7B-5AA0-41A0-A577-031416525D26",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 8,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "CE1CB22B-C0F5-4926-9A82-2E42DC90B333",
+                    "type": "mainImage",
+                    "groupName": "общий вид",
+                    "name": "Фасад",
+                    "order": 0,
+                    "isPrimary": true
+                },
+                {
+                    "hash": "255F4C69-5EA7-4FAB-9CD6-F9C576BAD746",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 9,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "05A5EF18-C159-416A-B981-3C8DD1BEB5AD",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 4,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "AF9A08A5-0EF4-4E89-90FB-6FE28D51A642",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 7,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "50F94FEF-C6D3-49B7-A10D-DCDD99892B43",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 1,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "A105BB5E-731B-4F84-BDC5-6C8152B833E2",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 2,
+                    "isPrimary": false
+                },
+                {
+                    "hash": "38D1DDEC-9D3D-4F34-BFB5-44DBE8D3001F",
+                    "type": "commonImage",
+                    "groupName": "общий вид",
+                    "name": "Lotte Plaza",
+                    "order": 3,
+                    "isPrimary": false
+                }
+            ]
+        }
+    ],
+    "broker": {
+        "phone": "+7 (903) 125-12-35",
+        "email": "ivanov@mail.try.ey",
+        "name": "Степаний Иванов"
+    }
+}

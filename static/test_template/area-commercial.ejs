@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Титульник</title>
+    <style>
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-700.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-700"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700.ttf") format("truetype");
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-500.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-500"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-500.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-500.ttf") format("truetype");
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-300Italic.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-300Italic"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-300Italic.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-300Italic.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-300Italic.ttf") format("truetype");
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-500Italic.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-500Italic"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-500Italic.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-500Italic.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-500Italic.ttf") format("truetype");
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-900.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-900"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-900.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-900.ttf") format("truetype");
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-700.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-700"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700.ttf") format("truetype");
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-700Italic.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-700Italic"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700Italic.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700Italic.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-700Italic.ttf") format("truetype");
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-300.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-300"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-300.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-300.ttf") format("truetype");
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-100.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-100"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-100.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-100.ttf") format("truetype");
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-100Italic.eot");
+            src: local("/static/fonts/MuseoSans/MuseoSansCyrl-100Italic"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-100Italic.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-100Italic.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-100Italic.ttf") format("truetype");
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("/static/fonts/MuseoSans/MuseoSansCyrl-900Italic.eot");
+            src: local("/static/fonts/MuseoSans/Museo Sans Cyrl 900 Italic"), local("MuseoSansCyrl-900Italic"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-900Italic.eot?#iefix") format("embedded-opentype"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-900Italic.woff") format("woff"),
+            url("/static/fonts/MuseoSans/MuseoSansCyrl-900Italic.ttf") format("truetype");
+            font-weight: 900;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body style="margin: 0; padding: 0">
+<div class="sheet" style="font-family: 'Museo Sans Cyrl'; width: 842px; height: 595px; line-height: 0; position: relative;">
+    <div class="pattern" style="position: relative;">
+        <table style="height: 100%; width: 100%;
+            border-spacing: 0px;
+            border: none;
+            box-sizing: content-box;
+            border-collapse: unset;">
+            <tr>
+                <td style="line-height: 0; width: 526px; height: 595px; display: block; padding: 0; margin: 0; overflow: hidden">
+                    <img src="<%= areaPatternSrc %>" height="100%" style="position: relative;" alt="pattern">
+                    <div style="background: black;
+                        opacity: 0.6;
+                        width: 526px;
+                        height: 595px;
+                        position: absolute;
+                        top: 0;
+                        left: 0"></div>
+                </td>
+                <td style="padding: 46px 30px 137px 56px; max-width: 316px; vertical-align: top">
+                    <table style="width: 100%;
+                            vertical-align: top;
+                            line-height: 1;
+                            border-spacing: 0px;
+                            border: none;
+                            box-sizing: content-box;
+                            border-collapse: unset;">
+                        <tr>
+                            <td colspan="2">
+                                <div style="font-weight: 600;
+                                    margin-bottom: 24px;
+                                    font-size: 24px;
+                                    background: linear-gradient(96.99deg, #008054 0%, #B4D88B 101.2%);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;">Коммерческие условия</div>
+                            </td>
+                        </tr>
+                        <% terms.forEach(term => { %>
+                        <tr>
+                            <td style="width: 22px; vertical-align: top; padding-top: 3px;">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.33337 7.99992C1.33337 4.31992 4.32004 1.33325 8.00004 1.33325C11.68 1.33325 14.6667 4.31992 14.6667 7.99992C14.6667 11.6799 11.68 14.6666 8.00004 14.6666C4.32004 14.6666 1.33337 11.6799 1.33337 7.99992ZM8.00004 11.9999C10.2067 11.9999 12 10.2066 12 7.99992C12 5.79325 10.2067 3.99992 8.00004 3.99992C5.79337 3.99992 4.00004 5.79325 4.00004 7.99992C4.00004 10.2066 5.79337 11.9999 8.00004 11.9999Z" fill="#49A942"/>
+                                </svg>
+                            </td>
+                            <td>
+                                <div style="color: #434343;
+                                    font-size: 12px;
+                                    line-height: 21px;
+                                    font-weight: 600"
+                                ><%= term.name %> </div>
+                                <div style="color: #7b7b7b;
+                                font-size: 12px;
+                                margin-bottom: 16px;
+                                line-height: 21px"
+                                ><%=term.params.reduce(
+                                	(string, param, index, sourceArray) => index !== sourceArray.length - 1
+                                            ? string + `${param}, ` : string + param, '') %></div>
+                            </td>
+                        </tr>
+                        <% }); %>
+                        <% if(terms.length === 0) {%>
+                            <tr>
+                                <td style="width: 22px; vertical-align: top; padding-top: 3px;">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.33337 7.99992C1.33337 4.31992 4.32004 1.33325 8.00004 1.33325C11.68 1.33325 14.6667 4.31992 14.6667 7.99992C14.6667 11.6799 11.68 14.6666 8.00004 14.6666C4.32004 14.6666 1.33337 11.6799 1.33337 7.99992ZM8.00004 11.9999C10.2067 11.9999 12 10.2066 12 7.99992C12 5.79325 10.2067 3.99992 8.00004 3.99992C5.79337 3.99992 4.00004 5.79325 4.00004 7.99992C4.00004 10.2066 5.79337 11.9999 8.00004 11.9999Z" fill="#49A942"/>
+                                    </svg>
+                                </td>
+                                <td>
+                                    <div style="color: #434343;
+                                    font-size: 12px;
+                                    line-height: 21px;
+                                    font-weight: 600"
+                                    >Специальные условия </div>
+                                    <div style="color: #7b7b7b;
+                                font-size: 12px;
+                                margin-bottom: 16px;
+                                line-height: 21px"
+                                    >Не установлены</div>
+                                </td>
+                            </tr>
+                        <% } %>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="layout" style="position: absolute;
+                                  top: 120px;
+                                  left: 314px;
+                                  width: 212px;
+                                  height: 360px;
+                                  padding: 104px 10px 0 48px;
+                                  background-color: white;
+                                  opacity: 0.2"></div>
+
+    <div class="container" style="position: absolute;
+                                  top: 120px;
+                                  left: 314px;
+                                  width: 164px;
+                                  height: 360px;
+                                  padding: 104px 10px 0 48px;"
+    >
+        <table style=" line-height: 1; color: white;">
+            <% if(square !== '') { %>
+            <tr style="vertical-align: top">
+                <td style="padding-top: 3px; padding-right: 10px">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0L14.3 2.3L11.41 5.17L12.83 6.59L15.7 3.7L18 6V0H12ZM0 6L2.3 3.7L5.17 6.59L6.59 5.17L3.7 2.3L6 0H0V6ZM6 18L3.7 15.7L6.59 12.83L5.17 11.41L2.3 14.3L0 12V18H6ZM18 12L15.7 14.3L12.83 11.41L11.41 12.83L14.3 15.7L12 18H18V12Z" fill="white"/>
+                    </svg>
+                </td>
+                <td>
+                    <div style="font-weight: 600;
+                                    margin-bottom: 5px;
+                                    font-size: 24px;
+                                    color: white"
+                    ><%= square %></div>
+                    <div style="font-weight: 400;
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: white"
+                    >площадь</div>
+                </td>
+            </tr>
+            <% } %>
+            <% if(floorHeight !== '') { %>
+            <tr style="vertical-align: top">
+                <td style="padding-top: 3px; padding-right: 10px">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 0V2H0V0H18ZM8 7.99V18H10V7.99H13L9 4L5 7.99H8Z" fill="white"/>
+                    </svg>
+                </td>
+                <td>
+                    <div style="font-weight: 600;
+                                    margin-bottom: 5px;
+                                    font-size: 24px;
+                                    color: white"
+                    ><%= floorHeight %></div>
+                    <div style="font-weight: 400;
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: white"
+                    >потолки</div>
+                </td>
+            </tr>
+            <% } %>
+            <% if(power !== '') { %>
+            <tr style="vertical-align: top">
+                <td style="padding-top: 3px; padding-right: 10px">
+                    <svg width="8" height="18" viewBox="0 0 8 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 0L0 9.9H3L1 18L8 7.2H4L7 0H2Z" fill="white"/>
+                    </svg>
+                </td>
+                <td>
+                    <div style="font-weight: 600;
+                                    margin-bottom: 5px;
+                                    font-size: 24px;
+                                    color: white"
+                    ><%= power %></div>
+                    <div style="font-weight: 400;
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: white"
+                    >электрическая мощность</div>
+                </td>
+            </tr>
+            <% } %>
+            <% if(square === '' && power === '' && floorHeight === '') { %>
+                <tr>
+                    <td style="padding-top: 3px; padding-right: 10px">
+                        <svg width="8" height="18" viewBox="0 0 8 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 0L0 9.9H3L1 18L8 7.2H4L7 0H2Z" fill="white"/>
+                        </svg>
+                    </td>
+                    <td>
+                        <div style="font-weight: 600;
+                                    margin-bottom: 5px;
+                                    font-size: 24px;
+                                    color: white"
+                        >Нет данных</div>
+                        <div style="font-weight: 400;
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: white"
+                        >для отображения</div>
+                    </td>
+                </tr>
+            <% } %>
+        </table>
+    </div>
+    <div class="container" style="padding: 48px 30px 137px 104px;
+                                  position: absolute;
+                                  max-width: 392px;
+                                  top: 0;
+                                  left: 0px;">
+        <table style=" line-height: 1; color: white;">
+            <tr>
+                <td style="width: 30px;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="12" fill="white"/>
+                        <path d="M15.3333 6.66675L18 9.33341L15.3333 12.0001V10.0001H12.6667V8.66675H15.3333V6.66675ZM10.6667 8.66675C10.3 8.66675 10 8.96675 10 9.33341C10 9.70008 10.3 10.0001 10.6667 10.0001C11.0333 10.0001 11.3333 9.70008 11.3333 9.33341C11.3333 8.96675 11.0333 8.66675 10.6667 8.66675ZM8 8.66675C7.63333 8.66675 7.33333 8.96675 7.33333 9.33341C7.33333 9.70008 7.63333 10.0001 8 10.0001C8.36667 10.0001 8.66667 9.70008 8.66667 9.33341C8.66667 8.96675 8.36667 8.66675 8 8.66675ZM8.66667 15.3334H11.3333V14.0001H8.66667V12.0001L6 14.6667L8.66667 17.3334V15.3334ZM13.3333 15.3334C13.7 15.3334 14 15.0334 14 14.6667C14 14.3001 13.7 14.0001 13.3333 14.0001C12.9667 14.0001 12.6667 14.3001 12.6667 14.6667C12.6667 15.0334 12.9667 15.3334 13.3333 15.3334ZM16 15.3334C16.3667 15.3334 16.6667 15.0334 16.6667 14.6667C16.6667 14.3001 16.3667 14.0001 16 14.0001C15.6333 14.0001 15.3333 14.3001 15.3333 14.6667C15.3333 15.0334 15.6333 15.3334 16 15.3334Z" fill="#49A942"/>
+                    </svg>
+                </td>
+                <td>
+                    <%= operationType %>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="font-weight: 600;
+                                    margin-top: 8px;
+                                    margin-bottom: 12px;
+                                    font-size: 40px;
+                                    color: #73C167"
+                    ><%= purpose %></div>
+                    <div style="font-weight: 600;
+                                    margin-bottom: 20px;
+                                    font-size: 28px;
+                                    color: white"
+                    ><%= layout %></div>
+
+                    <div style="font-weight: 400;
+                                    margin-bottom: 20px;
+                                    font-size: 14px;
+                                    max-width: 195px;
+                                    min-height: 80px;
+                                    color: white"
+                    >
+                        <%areaFeatures.forEach((feature, index, sourceArr) => {
+                        	if(index < 6) {
+                        %>
+                        <p style="margin: 7px 0"><%=feature + (index !== sourceArr.length - 1 ? ', ' : '') %></p>
+                        <%  }
+                        }) %>
+                    </div>
+
+                    <div style="font-weight: 400;
+                                    margin-bottom: 16px;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    max-width: 195px;
+                                    color: white"
+                    ><%= state %></div>
+
+                    <div style="font-weight: 600;
+                                    margin-bottom: 16px;
+                                    font-size: 144px;
+                                    line-height: 1;
+                                    max-width: 195px;
+                                    color: white"
+                    ><%= floor %></div>
+                    <div style="font-weight: 400;
+                                    margin-top: -40px;
+                                    font-size: 72px;
+                                    max-width: 195px;
+                                    opacity: 0.8;
+                                    color: white"
+                    >этаж</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container" style="position: absolute; bottom: 0; right: 0px;">
+        <img src="/static/img/pattern5.png" style="position: relative;" alt="pattern">
+        <div class="container" style="position: absolute; top: 0; left: 0px;">
+            <svg width="119" height="117" viewBox="0 0 119 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0L107 -5.40026e-07L118.5 58.5L107 117L-6.67574e-07 117L0 0Z" fill="#73C167"/>
+                <path d="M68.4526 47.375C68.2585 44.8708 66.1603 42.8921 63.6073 42.8921H40.8615C38.1809 42.8921 36 45.073 36 47.7536V70.2469C36 72.9276 38.1809 75.1085 40.8615 75.1085H67.1385C69.8192 75.1085 72.0001 72.9276 72.0001 70.2469V52.0546C72 49.8293 70.4966 47.9499 68.4526 47.375ZM40.8615 45.1632H63.6073C64.8432 45.1632 65.879 46.0334 66.136 47.1931H40.8615C39.9097 47.1931 39.0217 47.4691 38.2711 47.9438V47.7536C38.2711 46.3253 39.4332 45.1632 40.8615 45.1632ZM67.1385 72.8374H40.8615C39.4332 72.8374 38.2711 71.6753 38.2711 70.2469V52.0546C38.2711 50.6262 39.4332 49.4641 40.8615 49.4641H67.1385C68.5669 49.4641 69.729 50.6262 69.729 52.0546V56.0175H62.488C59.6187 56.0175 57.2843 58.352 57.2843 61.2213C57.2843 64.0907 59.6187 66.4252 62.488 66.4252H69.7289V70.2469C69.7289 71.6753 68.5668 72.8374 67.1385 72.8374ZM69.7289 64.1541H62.488C60.871 64.1541 59.5554 62.8385 59.5554 61.2213C59.5554 59.6042 60.871 58.2886 62.488 58.2886H69.7289V64.1541Z" fill="white"/>
+                <path d="M62.9095 62.49C63.5625 62.49 64.0918 61.9607 64.0918 61.3077C64.0918 60.6548 63.5625 60.1255 62.9095 60.1255C62.2566 60.1255 61.7273 60.6548 61.7273 61.3077C61.7273 61.9607 62.2566 62.49 62.9095 62.49Z" fill="white"/>
+            </svg>
+        </div>
+    </div>
+
+
+    <div class="container" style="position: absolute;
+                                    bottom: 0;
+                                    right: 0px;
+                                    width: 393px;
+                                    height: 117px;
+                                    max-height: 117px;"
+    >
+        <table style=" line-height: 1; color: white; margin-top: 36px;">
+            <tr style="vertical-align: top">
+                <td>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20 3H19V1H17V3H7V1H5V3H4C2.9 3 2 3.9 2 5V21C2 22.1 2.9 23 4 23H20C21.1 23 22 22.1 22 21V5C22 3.9 21.1 3 20 3ZM4 21H20V5H4V21Z" fill="white"/>
+                        <path d="M12 18H14V8H10V10H12V18Z" fill="white"/>
+                    </svg>
+                </td>
+                <td style="vertical-align: top">
+                    <div style="font-weight: 600;
+                        margin: 2px 0 0 10px;
+                        font-size: 24px;
+                        line-height: 21px;
+                        color: white"
+                    ><%=pricePerMonth%></div>
+                    <div style="font-weight: 400;
+                        margin: 2px 0 26px 10px;
+                        line-height: 14px;
+                        font-size: 14px;
+                        color: white"
+                    >за месяц</div>
+                </td>
+                <td style="width: 34px;"></td>
+                <td>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20 3H19V1H17V3H7V1H5V3H4C2.9 3 2 3.9 2 5V21C2 22.1 2.9 23 4 23H20C21.1 23 22 22.1 22 21V5C22 3.9 21.1 3 20 3ZM4 21H20V5H4V21Z" fill="white"/>
+                        <path d="M8 18H10V8H6V10H8V18Z" fill="white"/>
+                        <path d="M18 16H14V14H16C17.1 14 18 13.11 18 12V10C18 8.89 17.1 8 16 8H12V10H16V12H14C12.9 12 12 12.89 12 14V18H18V16Z" fill="white"/>
+                    </svg>
+
+                </td>
+                <td style="vertical-align: top">
+                    <div style="font-weight: 600;
+                        margin: 2px 0 0 10px;
+                        font-size: 24px;
+                        line-height: 21px;
+                        color: white"
+                    ><%= pricePerSquare %></div>
+                    <div style="font-weight: 400;
+                        vertical-align: top;
+                        margin: 2px 0 26px 10px;
+                        font-size: 14px;
+                        line-height: 14px;
+                        color: white"
+                    >за кв.м в год</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+</body>
+
+
